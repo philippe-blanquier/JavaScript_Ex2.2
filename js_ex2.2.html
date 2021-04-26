@@ -10,12 +10,16 @@
         <h1>Exo 2.2</h1>
             <script  type="text/javascript">
                 let number;
-                number=prompt("Entrer un nombre: ", 21);
+                number=prompt("Entrer un nombre: ", 18);
                 if (number != null)
                 {
-                    if (parseInt(number) > 21) 
+                    if (parseInt(number) >= 18) 
                     {
-                        alert("Supérieur à 21");
+                        alert("Vous êtes majeur");
+                    }
+                    else
+                    {
+                        alert("Vous êtes mineur");
                     }
                 }
              </script>
